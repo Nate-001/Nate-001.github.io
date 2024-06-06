@@ -31,6 +31,10 @@ body {
     margin-right: -3cm;
     padding-bottom: 4cm; /* Increase bottom padding for small screens */
   }
+  .about-me-paragraph {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
   .profile_image {
     max-width: 100%;
     height: auto;
