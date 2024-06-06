@@ -15,6 +15,19 @@ body {
   height: 5mm;
  }
 
+ @media (max-width: 600px) {
+  #home {
+    padding-bottom: 4cm; /* Increase bottom padding for small screens */
+  }
+  .profile_image {
+    max-width: 100%;
+    height: auto;
+  }
+  .container {
+    flex-direction: column;
+  }
+}
+
 .topmenu {
   color: rgb(102, 102, 102);
   margin: 10px;
