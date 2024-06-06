@@ -26,6 +26,13 @@ body {
   .container {
     flex-direction: column;
   }
+  .topdiv {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .topdiv a:nth-child(odd) {
+    margin-bottom: 20px; /* Add padding between rows */
+  }
 }
 
 .topmenu {
