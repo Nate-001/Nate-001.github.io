@@ -8,7 +8,7 @@ body {
   background-color:  #7de7b6;
   padding-bottom: 1cm;
   margin-left:-1cm;
-  margin-right:-1cm;
+  margin-right:-3cm;
   margin-top:-1cm;
   padding-top: 2cm;
   padding-bottom: 2cm;
@@ -33,6 +33,9 @@ body {
   .topdiv a:nth-child(odd) {
     margin-bottom: 20px; /* Add padding between rows */
   }
+  .header-title {
+    font-size: 2em; /* Smaller font size for small screens */
+  }
 }
 
 .topmenu {
@@ -52,7 +55,7 @@ body {
 
 .topdiv {
   float: right;
-  padding-right: 1cm;
+  padding-right: 3cm;
 }
 
 .profile_name {
@@ -132,6 +135,7 @@ h2 {
   width: 550px;
   margin-left: -1cm;
   text-align: left;
+  height: auto;
   /*height: fit-content;
   vertical-align: middle;
   margin: 5px;*/
@@ -236,6 +240,7 @@ h2 {
   border:1px solid gray;
   font-size: 18px;
   height:150px
+  overflow: scroll;
 }
 
 .recommendation span {
