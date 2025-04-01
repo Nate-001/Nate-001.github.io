@@ -14,6 +14,8 @@ body {
   padding-top: 2cm;
   padding-bottom: 2cm;
   height: 5mm;
+  padding-right: 2%;
+  padding-left: 2%;
  }
 
  @media (max-width: 600px) {
@@ -29,11 +31,11 @@ body {
   }
   #home {
     margin-right: -3cm;
-    padding-bottom: 4cm; /* Increase bottom padding for small screens */
+    padding-bottom: 4cm; 
   }
   .about-me-paragraph {
     padding-left: 3px;
-    padding-right: 3px;
+    padding-right: 10%;
   }
   .profile_image {
     max-width: 100%;
@@ -47,10 +49,10 @@ body {
     padding-left: 20px;
   }
   .topdiv a:nth-child(odd) {
-    margin-bottom: 20px; /* Add padding between rows */
+    margin-bottom: 20px; 
   }
   .header-title {
-    font-size: 2em; /* Smaller font size for small screens */
+    font-size: 2em; 
   }
 }
 
@@ -144,6 +146,7 @@ h2 {
   font-size: 25px;
   color: rgb(128, 128, 128);
   margin-top: -1cm;
+  padding-right: 120px;
 }
 
 .profile_image {
@@ -158,10 +161,16 @@ h2 {
 
 /* Skills */
 
+#skills {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .all_skills {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+  padding: auto;
 }
 
 .skill {
@@ -205,6 +214,11 @@ h2 {
 
 /* Projects */
 
+#projects {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .projects-container {
   margin-top: 30px;
   margin-left: 60px;
@@ -232,6 +246,11 @@ h2 {
 }
 
 /* Recommendations */
+
+#recommendations {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
 .all_recommendations {
   display: flex;
@@ -367,3 +386,52 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .profile_name {
+    margin-left: -5%;
+  }
+
+  
+
+  .about-me-paragraph {
+    margin-right: -20%;
+  }
+
+  .header-title {
+    margin-left: -5px;
+  }
+  /* Projects Section */
+
+  .projects-container {
+    margin-left: auto;   /* Center horizontally */
+    margin-right: auto;  /* Center horizontally */
+    text-align: left;  /* Center text within the container */
+  }
+
+  .project-card {
+    margin-left: auto;   /* Center horizontally */
+    margin-right: auto;  /* Center horizontally */
+  }
+
+  .projects-container hr {
+    margin-left: auto;    /* Center horizontally */
+    margin-right: auto;   /* Center horizontally */
+    width: 75%;           /* Adjust width as needed */
+  }
+
+  /* Recommendations Section */
+  .all_recommendations {
+    justify-content: center; /* Center the recommendations horizontally */
+    margin-left: auto;   /* Center horizontally */
+    margin-right: auto;  /* Center horizontally */
+  }
+
+  .recommendation {
+    margin-left: auto;    /* Center horizontally */
+    margin-right: auto;   /* Center horizontally */
+  }
+  
+}
+
+
