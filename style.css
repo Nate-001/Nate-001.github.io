@@ -388,6 +388,7 @@ button:hover {
 }
 
 @media (max-width: 600px) {
+
   .profile_name {
     margin-left: -5%;
   }
@@ -404,32 +405,32 @@ button:hover {
   /* Projects Section */
 
   .projects-container {
-    margin-left: auto;   /* Center horizontally */
-    margin-right: auto;  /* Center horizontally */
-    text-align: left;  /* Center text within the container */
+    margin-left: auto; 
+    margin-right: auto;  
+    text-align: left;  
   }
 
   .project-card {
-    margin-left: auto;   /* Center horizontally */
-    margin-right: auto;  /* Center horizontally */
+    margin-left: auto;  
+    margin-right: auto;  
   }
 
   .projects-container hr {
-    margin-left: auto;    /* Center horizontally */
-    margin-right: auto;   /* Center horizontally */
-    width: 75%;           /* Adjust width as needed */
+    margin-left: auto;  
+    margin-right: auto;  
+    width: 75%;           
   }
 
   /* Recommendations Section */
   .all_recommendations {
-    justify-content: center; /* Center the recommendations horizontally */
-    margin-left: auto;   /* Center horizontally */
-    margin-right: auto;  /* Center horizontally */
+    justify-content: center; 
+    margin-left: auto;  
+    margin-right: auto; 
   }
 
   .recommendation {
-    margin-left: auto;    /* Center horizontally */
-    margin-right: auto;   /* Center horizontally */
+    margin-left: auto;  
+    margin-right: auto;   
   }
   
 }
