@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { name: "C++", startYear: 2016, img: "Media/ISO_C++_Logo.svg.png" },
     { name: "C", startYear: 2016, img: "Media/C_Programming_Language.svg.png" },
     { name: "Java", startYear: 2016, img: "Media/Java_programming_language_logo.svg.png" },
-    { name: "Bootstrap", startYear: 2023, img: "Media/Bootstrap_logo.svg" },
+    { name: "Bootstrap", startYear: 2017, img: "Media/Bootstrap_logo.svg" },
     { name: "PHP", startYear: 2022, img: "Media/PHP-logo.svg.png" },
     { name: "React.js", startYear: 2023, img: "Media/React-icon.svg.png" },
     { name: "Node.js", startYear: 2023, img: "Media/Node.js_logo.svg" },
