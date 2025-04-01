@@ -130,6 +130,9 @@ h2 {
 }
 
 /* About Me */
+#about-me {
+  margin-left: 5%;
+}
 
 .about-me {
   display: flex;
